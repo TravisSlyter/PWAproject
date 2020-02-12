@@ -1,0 +1,115 @@
+:root {
+    --bcColor1: rgba(34, 34, 34, 0.781);
+    --bcColor2: rgb(8,145,240);
+    --bcColor3: radial-gradient(circle, rgba(8,145,240,1) 16%, rgba(37,46,87,1) 94%);
+    --iconColor: rgb(153, 152, 152);
+    --fontColor: rgb(228, 228, 228);
+}
+
+body {
+    margin: 0;
+    max-width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 50px auto 50px;
+    background: var(--bcColor2);
+    background: var(--bcColor3);
+    color: var(--fontColor);
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    width: 50px;
+    color: var(--iconColor);
+}
+
+li {
+    list-style-type: none;
+}
+
+header {
+    height: 50px;
+    background-color: var(--bcColor1);
+}
+
+header > ul {
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+    margin: 0;
+    padding: 0;
+}
+
+header > ul > li {
+    display: grid;
+    align-content: center;
+}
+
+.home-icon {
+    margin-left: 25px;
+}
+
+.xplore-icon {
+    justify-self: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.profile-icon {
+    justify-self: right;
+    margin-right: 25px;
+}
+
+main {
+    display: grid;
+    grid-template-rows: 80% auto;
+}
+
+section {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+.img-cnt {
+    margin-top: 75px;
+}
+
+.desc {
+    margin: 0 300px 0 300px;
+    font-size: 18px;
+}
+
+.sect-2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-content: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 28px;
+}
+
+.list-item > a{
+    color: var(--fontColor);
+    margin-right: 45px;
+    font-size: 20px;
+}
+
+footer {
+    background-color: var(--bcColor1);
+}
+
+footer > a {
+    margin-left: 25px;
+}
+
+@media (max-width: 1200px) {
+    .desc {
+        margin: 0 25px 0 25px;
+    }
+}
+
+
+
