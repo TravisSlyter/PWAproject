@@ -3,3 +3,14 @@ https://developers.google.com/web/tools/workbox/guides/get-started
 
 https://codelabs.developers.google.com/codelabs/workbox-lab/#1
 
+add https url to gain "add to home screen" prompt.
+
+make changes in src folder then run build to copy to build folder:
+$ npm run build
+
+run express server:
+$npm run start
+
+created manifest.json file
+https://app-manifest.firebaseapp.com/
+
