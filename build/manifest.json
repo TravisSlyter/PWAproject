@@ -5,7 +5,7 @@
   "background_color": "#0891f0",
   "display": "standalone",
   "Scope": "/",
-  "start_url": "/",
+  "start_url": "https://hungry-hawking-9c02bd.netlify.com/",
   "icons": [
     {
       "src": "icons/icons/icon-72x72.png",
